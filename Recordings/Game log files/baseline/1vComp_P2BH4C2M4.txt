@@ -1,0 +1,4 @@
+Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 1:32:56 PM	7/2/2015 1:33:02 PM	training	Player 2	0	0	1	0	2	4Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 2:00:19 PM	7/2/2015 2:02:35 PM	training	Player 2	23	0	30	5	14	4Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 2:04:21 PM	7/2/2015 2:08:21 PM	P2BH4C2M4	Player 2	71	0	87	13	14	4

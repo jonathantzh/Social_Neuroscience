@@ -1,0 +1,5 @@
+Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/10/2015 1:37:04 PM	7/10/2015 1:38:30 PM	training	Player 2	16	0	19	8	3	4Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/10/2015 1:39:13 PM	7/10/2015 1:43:13 PM	P10AHUC1M4	Player 2	80	0	82	7	10	4Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/10/2015 1:48:26 PM	7/10/2015 1:52:26 PM	P10AHUC5M2	P10BH2C5M2	140	50	82	15	5	2Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/10/2015 1:53:02 PM	7/10/2015 1:57:02 PM	P10AHUC5M5	P10BH2C5M5	162	83	144	19	5	5

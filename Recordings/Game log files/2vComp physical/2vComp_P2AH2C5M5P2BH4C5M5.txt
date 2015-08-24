@@ -1,0 +1,6 @@
+Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 1:33:56 PM	7/2/2015 1:34:11 PM	training	training	3	2	0	1	0	2Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 2:00:17 PM	7/2/2015 2:02:55 PM	Training 	training	38	2	34	7	9	4Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 2:04:13 PM	7/2/2015 2:08:13 PM	P2AH2C1M4	training	88	2	88	10	17	4Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 2:10:43 PM	7/2/2015 2:14:43 PM	P2AH2C5M2	P2BH4C5M2	142	54	88	14	10	2Start	Stop	P1	P2	P1Bounces	P2Bounces	ComputerBounces	P1Score	P2Score	Mode
+7/2/2015 2:16:26 PM	7/2/2015 2:20:26 PM	P2AH2C5M5	P2BH4C5M5	173	85	153	7	9	5
