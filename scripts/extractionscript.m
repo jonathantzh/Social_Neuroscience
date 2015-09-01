@@ -31,4 +31,4 @@ single1 = delta1(:,1);
 single2 = delta2(:,1);
 
 %compute xcorr
-xcorrelation = xcorr(single1, single2);
+[r(:,1),r(:,2)] = xcorr(single1-mean(single1), single2-mean(single2),'coeff');
