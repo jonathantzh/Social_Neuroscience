@@ -1,6 +1,6 @@
 function extractedData = extractData (fileName)
 
-load(fileName, recordData)
+load(fileName, 'recordData')
 %extracting desired data channels
 
 testData = recordData;
