@@ -6,25 +6,13 @@ load('/Users/Jon/Desktop/Social_Neuroscience/recordings/1v1physical/EEGlog-P1BH2
 testData2 = recordData;
 
 %extracting desired data channels
-fullextractedData1 = testData1(:,4:17);
-fullextractedData1(:, 2) = [];
-fullextractedData1(:, 3) = [];
-fullextractedData1(:, 5) = [];
-fullextractedData1(:, 5) = [];
-fullextractedData1(:, 7) = [];
-fullextractedData1(:, 8) = [];
+data1 = extractData('/Users/Jon/Desktop/Social_Neuroscience/recordings/1v1physical/EEGlog-P1AH1C2M2b -20150701T143228.mat');
 
-fullextractedData2 = testData2(:,4:17);
-fullextractedData2(:, 2) = [];
-fullextractedData2(:, 3) = [];
-fullextractedData2(:, 5) = [];
-fullextractedData2(:, 5) = [];
-fullextractedData2(:, 7) = [];
-fullextractedData2(:, 8) = [];
+data2 = extractData('/Users/Jon/Desktop/Social_Neuroscience/recordings/1v1physical/EEGlog-P1AH1C2M2b -20150701T143228.mat');
 
 %applying band-pass filter to delta freq band
-delta1 = Band_pass_filter(fullextractedData1,1,4,128);
-delta2 = Band_pass_filter(fullextractedData2,1,4,128);
+delta1 = Band_pass_filter(data1,1,4,128);
+delta2 = Band_pass_filter(data2,1,4,128);
 
 %extracting single channel data for cross-correlation
 single1 = delta1(:,1);
