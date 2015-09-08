@@ -36,12 +36,25 @@ singleB2 = beta2(:,i);
 singleG1 = gamma1(:,i);
 singleG2 = gamma2(:,i);
 
-%compute xcorr & extract variables for plotting
+%compute xcorr & extract variables for each freq band
 [d(:,1),d(:,2)] = xcorr(singleD1-mean(singleD1), singleD2-mean(singleD2),'coeff');
 [t(:,1),t(:,2)] = xcorr(singleT1-mean(singleT1), singleT2-mean(singleT2),'coeff');
 [a(:,1),a(:,2)] = xcorr(singleA1-mean(singleA1), singleA2-mean(singleA2),'coeff');
 [b(:,1),b(:,2)] = xcorr(singleB1-mean(singleB1), singleB2-mean(singleB2),'coeff');
 [g(:,1),g(:,2)] = xcorr(singleG1-mean(singleG1), singleG2-mean(singleG2),'coeff');
+
+%compute max(xcorr) for each freq band
+deltamax = max(d(:,1));
+thetamax = max(t(:,1));
+alphamax = max(a(:,1));
+betamax = max(b(:,1));
+gammamax = max(g(:,1)); %getting 0.1477 for all values
+
+%computing inter-brain density (IBD) values, using algorithm from
+%brain_plot.m & compcorr.m for delta only
+adj = compcorr(delta1, delta2); %different synchrony measure from xcorr?
+value123=sum(adj(:)==1);
+result13=value123/(14^2); %rationale?
 
     end;
 end;
