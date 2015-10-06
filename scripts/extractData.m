@@ -12,9 +12,4 @@ fullextractedData(:, 5) = [];
 fullextractedData(:, 7) = [];
 fullextractedData(:, 8) = [];
 
-meanData = mean(fullextractedData);
-referencedData = bsxfun(@minus,fullextractedData,meanData);
-normalisedData =  referencedData/norm(referencedData); %very small normalised values
-
-
-extractedData = normalisedData;
+extractedData = fullextractedData;
